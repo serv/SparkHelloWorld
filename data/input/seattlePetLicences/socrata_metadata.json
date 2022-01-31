@@ -1,0 +1,798 @@
+{
+  "id": "jguv-t9rb",
+  "name": "Seattle Pet Licenses",
+  "assetType": "dataset",
+  "attribution": "City of Seattle",
+  "averageRating": 1,
+  "category": "Community",
+  "createdAt": 1485295453,
+  "description": "A list of active/current Seattle pet licenses, including animal type (species), pet's name, breed and the owner's ZIP code.\n\n(List current as of April 07, 2020)",
+  "displayType": "table",
+  "downloadCount": 5390,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "indexUpdatedAt": 1546292606,
+  "licenseId": "PUBLIC_DOMAIN",
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 29255836,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1531358698,
+  "publicationGroup": 14007973,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1617829570,
+  "rowsUpdatedBy": "axtc-pgxr",
+  "tableId": 15379283,
+  "totalTimesRated": 0,
+  "viewCount": 9226,
+  "viewLastModified": 1617829555,
+  "viewType": "tabular",
+  "approvals": [
+	{
+	  "reviewedAt": 1531358698,
+	  "reviewedAutomatically": true,
+	  "state": "approved",
+	  "submissionId": 331255,
+	  "submissionObject": "public_audience_request",
+	  "submissionOutcome": "change_audience",
+	  "submittedAt": 1531358698,
+	  "workflowId": 623,
+	  "submissionDetails": {
+		"permissionType": "READ"
+	  },
+	  "submissionOutcomeApplication": {
+		"failureCount": 0,
+		"status": "success"
+	  },
+	  "submitter": {
+		"id": "axtc-pgxr",
+		"displayName": "FAS - Seattle Animal Shelter"
+	  }
+	}
+  ],
+  "columns": [
+	{
+	  "id": 366714602,
+	  "name": "License Issue Date",
+	  "dataTypeName": "calendar_date",
+	  "description": "",
+	  "fieldName": "license_issue_date",
+	  "position": 1,
+	  "renderTypeName": "calendar_date",
+	  "tableColumnId": 42920222,
+	  "width": 183,
+	  "cachedContents": {
+		"largest": "2021-04-07T00:00:00.000",
+		"non_null": "46388",
+		"null": "0",
+		"top": [
+		  {
+			"item": "2020-11-10T00:00:00.000",
+			"count": "193"
+		  },
+		  {
+			"item": "2021-01-08T00:00:00.000",
+			"count": "186"
+		  },
+		  {
+			"item": "2021-03-08T00:00:00.000",
+			"count": "185"
+		  },
+		  {
+			"item": "2021-03-09T00:00:00.000",
+			"count": "180"
+		  },
+		  {
+			"item": "2020-10-06T00:00:00.000",
+			"count": "171"
+		  },
+		  {
+			"item": "2020-07-06T00:00:00.000",
+			"count": "170"
+		  },
+		  {
+			"item": "2020-07-07T00:00:00.000",
+			"count": "168"
+		  },
+		  {
+			"item": "2020-11-09T00:00:00.000",
+			"count": "168"
+		  },
+		  {
+			"item": "2020-05-06T00:00:00.000",
+			"count": "161"
+		  },
+		  {
+			"item": "2020-08-07T00:00:00.000",
+			"count": "161"
+		  },
+		  {
+			"item": "2020-06-03T00:00:00.000",
+			"count": "154"
+		  },
+		  {
+			"item": "2020-10-05T00:00:00.000",
+			"count": "154"
+		  },
+		  {
+			"item": "2020-09-05T00:00:00.000",
+			"count": "152"
+		  },
+		  {
+			"item": "2021-01-07T00:00:00.000",
+			"count": "149"
+		  },
+		  {
+			"item": "2020-05-07T00:00:00.000",
+			"count": "148"
+		  },
+		  {
+			"item": "2020-10-20T00:00:00.000",
+			"count": "148"
+		  },
+		  {
+			"item": "2020-06-04T00:00:00.000",
+			"count": "145"
+		  },
+		  {
+			"item": "2020-11-19T00:00:00.000",
+			"count": "144"
+		  },
+		  {
+			"item": "2020-12-07T00:00:00.000",
+			"count": "143"
+		  },
+		  {
+			"item": "2021-01-20T00:00:00.000",
+			"count": "143"
+		  }
+		],
+		"smallest": "2015-10-21T00:00:00.000",
+		"not_null": "51754",
+		"cardinality": "888"
+	  },
+	  "format": {
+		"view": "date_monthdy",
+		"align": "left"
+	  }
+	},
+	{
+	  "id": 366717395,
+	  "name": "License Number",
+	  "dataTypeName": "text",
+	  "description": "",
+	  "fieldName": "license_number",
+	  "position": 2,
+	  "renderTypeName": "text",
+	  "tableColumnId": 42920223,
+	  "width": 94,
+	  "cachedContents": {
+		"largest": "S156308",
+		"non_null": "46388",
+		"null": "0",
+		"top": [
+		  {
+			"item": "S104231",
+			"count": "2"
+		  },
+		  {
+			"item": "82838",
+			"count": "2"
+		  },
+		  {
+			"item": "133239",
+			"count": "2"
+		  },
+		  {
+			"item": "S104449",
+			"count": "2"
+		  },
+		  {
+			"item": "S135181",
+			"count": "2"
+		  },
+		  {
+			"item": "S114511",
+			"count": "2"
+		  },
+		  {
+			"item": "21091",
+			"count": "2"
+		  },
+		  {
+			"item": "S117283",
+			"count": "2"
+		  },
+		  {
+			"item": "8023603",
+			"count": "1"
+		  },
+		  {
+			"item": "8002762",
+			"count": "1"
+		  },
+		  {
+			"item": "8000520",
+			"count": "1"
+		  },
+		  {
+			"item": "8007317",
+			"count": "1"
+		  },
+		  {
+			"item": "S150482",
+			"count": "1"
+		  },
+		  {
+			"item": "S102824",
+			"count": "1"
+		  },
+		  {
+			"item": "S129661",
+			"count": "1"
+		  },
+		  {
+			"item": "213952",
+			"count": "1"
+		  },
+		  {
+			"item": "S124859",
+			"count": "1"
+		  },
+		  {
+			"item": "S129369",
+			"count": "1"
+		  },
+		  {
+			"item": "278914",
+			"count": "1"
+		  },
+		  {
+			"item": "8015120",
+			"count": "1"
+		  }
+		],
+		"smallest": "108440",
+		"not_null": "51754",
+		"cardinality": "46380"
+	  },
+	  "format": {
+		"precisionStyle": "standard",
+		"noCommas": "true",
+		"align": "center"
+	  }
+	},
+	{
+	  "id": 366714604,
+	  "name": "Animal's Name",
+	  "dataTypeName": "text",
+	  "description": "",
+	  "fieldName": "animal_s_name",
+	  "position": 3,
+	  "renderTypeName": "text",
+	  "tableColumnId": 42920226,
+	  "width": 149,
+	  "cachedContents": {
+		"largest": "Z.Z.",
+		"non_null": "46333",
+		"null": "55",
+		"top": [
+		  {
+			"item": "Luna",
+			"count": "402"
+		  },
+		  {
+			"item": "Lucy",
+			"count": "340"
+		  },
+		  {
+			"item": "Charlie",
+			"count": "334"
+		  },
+		  {
+			"item": "Bella",
+			"count": "285"
+		  },
+		  {
+			"item": "Daisy",
+			"count": "224"
+		  },
+		  {
+			"item": "Max",
+			"count": "219"
+		  },
+		  {
+			"item": "Lily",
+			"count": "198"
+		  },
+		  {
+			"item": "Lola",
+			"count": "195"
+		  },
+		  {
+			"item": "Jack",
+			"count": "190"
+		  },
+		  {
+			"item": "Oliver",
+			"count": "187"
+		  },
+		  {
+			"item": "Stella",
+			"count": "180"
+		  },
+		  {
+			"item": "Cooper",
+			"count": "173"
+		  },
+		  {
+			"item": "Buddy",
+			"count": "173"
+		  },
+		  {
+			"item": "Penny",
+			"count": "168"
+		  },
+		  {
+			"item": "Maggie",
+			"count": "168"
+		  },
+		  {
+			"item": "Sophie",
+			"count": "166"
+		  },
+		  {
+			"item": "Molly",
+			"count": "164"
+		  },
+		  {
+			"item": "Olive",
+			"count": "164"
+		  },
+		  {
+			"item": "Ruby",
+			"count": "160"
+		  },
+		  {
+			"item": "Rosie",
+			"count": "158"
+		  }
+		],
+		"smallest": "__",
+		"not_null": "51460",
+		"cardinality": "13136"
+	  },
+	  "format": {
+		"align": "left"
+	  }
+	},
+	{
+	  "id": 366714605,
+	  "name": "Species",
+	  "dataTypeName": "text",
+	  "description": "",
+	  "fieldName": "species",
+	  "position": 4,
+	  "renderTypeName": "text",
+	  "tableColumnId": 42920225,
+	  "width": 98,
+	  "cachedContents": {
+		"largest": "Pig",
+		"non_null": "46388",
+		"null": "0",
+		"top": [
+		  {
+			"item": "Dog",
+			"count": "31808"
+		  },
+		  {
+			"item": "Cat",
+			"count": "14542"
+		  },
+		  {
+			"item": "Goat",
+			"count": "35"
+		  },
+		  {
+			"item": "Pig",
+			"count": "3"
+		  }
+		],
+		"smallest": "Cat",
+		"not_null": "51754",
+		"cardinality": "4"
+	  },
+	  "format": {
+		"align": "left"
+	  }
+	},
+	{
+	  "id": 366714606,
+	  "name": "Primary Breed",
+	  "dataTypeName": "text",
+	  "description": "",
+	  "fieldName": "primary_breed",
+	  "position": 5,
+	  "renderTypeName": "text",
+	  "tableColumnId": 42920228,
+	  "width": 256,
+	  "cachedContents": {
+		"largest": "Xoloitzcuintli",
+		"non_null": "46388",
+		"null": "0",
+		"top": [
+		  {
+			"item": "Domestic Shorthair",
+			"count": "8246"
+		  },
+		  {
+			"item": "Retriever, Labrador",
+			"count": "3854"
+		  },
+		  {
+			"item": "Domestic Medium Hair",
+			"count": "1791"
+		  },
+		  {
+			"item": "Retriever, Golden",
+			"count": "1653"
+		  },
+		  {
+			"item": "Chihuahua, Short Coat",
+			"count": "1635"
+		  },
+		  {
+			"item": "Domestic Longhair",
+			"count": "1082"
+		  },
+		  {
+			"item": "American Shorthair",
+			"count": "1003"
+		  },
+		  {
+			"item": "Terrier",
+			"count": "921"
+		  },
+		  {
+			"item": "German Shepherd",
+			"count": "917"
+		  },
+		  {
+			"item": "Mix",
+			"count": "834"
+		  },
+		  {
+			"item": "Australian Shepherd",
+			"count": "803"
+		  },
+		  {
+			"item": "Poodle, Miniature",
+			"count": "791"
+		  },
+		  {
+			"item": "Border Collie",
+			"count": "717"
+		  },
+		  {
+			"item": "Poodle, Standard",
+			"count": "674"
+		  },
+		  {
+			"item": "Australian Cattle Dog",
+			"count": "618"
+		  },
+		  {
+			"item": "Terrier, American Pit Bull",
+			"count": "617"
+		  },
+		  {
+			"item": "Siamese",
+			"count": "551"
+		  },
+		  {
+			"item": "Shih Tzu",
+			"count": "515"
+		  },
+		  {
+			"item": "Mixed Breed, Medium (up to 44 lbs fully grown)",
+			"count": "490"
+		  },
+		  {
+			"item": "Siberian Husky",
+			"count": "447"
+		  }
+		],
+		"smallest": "Abyssinian",
+		"not_null": "51754",
+		"cardinality": "334"
+	  },
+	  "format": {
+		"align": "left"
+	  }
+	},
+	{
+	  "id": 366714607,
+	  "name": "Secondary Breed",
+	  "dataTypeName": "text",
+	  "description": "",
+	  "fieldName": "secondary_breed",
+	  "position": 6,
+	  "renderTypeName": "text",
+	  "tableColumnId": 42920229,
+	  "width": 280,
+	  "cachedContents": {
+		"largest": "York Chocolate",
+		"non_null": "26140",
+		"null": "20248",
+		"top": [
+		  {
+			"item": "Mix",
+			"count": "15574"
+		  },
+		  {
+			"item": "Poodle, Standard",
+			"count": "1077"
+		  },
+		  {
+			"item": "Poodle, Miniature",
+			"count": "824"
+		  },
+		  {
+			"item": "Retriever, Labrador",
+			"count": "808"
+		  },
+		  {
+			"item": "Terrier",
+			"count": "394"
+		  },
+		  {
+			"item": "Chihuahua, Short Coat",
+			"count": "375"
+		  },
+		  {
+			"item": "Retriever, Golden",
+			"count": "374"
+		  },
+		  {
+			"item": "Border Collie",
+			"count": "308"
+		  },
+		  {
+			"item": "German Shepherd",
+			"count": "233"
+		  },
+		  {
+			"item": "Australian Shepherd",
+			"count": "213"
+		  },
+		  {
+			"item": "Australian Cattle Dog",
+			"count": "195"
+		  },
+		  {
+			"item": "Beagle",
+			"count": "181"
+		  },
+		  {
+			"item": "Domestic Shorthair",
+			"count": "168"
+		  },
+		  {
+			"item": "Shepherd",
+			"count": "152"
+		  },
+		  {
+			"item": "Boxer",
+			"count": "149"
+		  },
+		  {
+			"item": "Retriever",
+			"count": "141"
+		  },
+		  {
+			"item": "Terrier, American Pit Bull",
+			"count": "138"
+		  },
+		  {
+			"item": "Maltese",
+			"count": "135"
+		  },
+		  {
+			"item": "Dachshund, Standard Smooth Haired",
+			"count": "134"
+		  },
+		  {
+			"item": "Bichon Frise",
+			"count": "121"
+		  }
+		],
+		"smallest": "Abyssinian",
+		"not_null": "24912",
+		"cardinality": "257"
+	  },
+	  "format": {
+		"align": "left"
+	  }
+	},
+	{
+	  "id": 366714608,
+	  "name": "ZIP Code",
+	  "dataTypeName": "text",
+	  "description": "",
+	  "fieldName": "zip_code",
+	  "position": 7,
+	  "renderTypeName": "text",
+	  "tableColumnId": 42920231,
+	  "width": 58,
+	  "cachedContents": {
+		"largest": "99810",
+		"non_null": "46209",
+		"null": "179",
+		"top": [
+		  {
+			"item": "98115",
+			"count": "4279"
+		  },
+		  {
+			"item": "98103",
+			"count": "3876"
+		  },
+		  {
+			"item": "98117",
+			"count": "3412"
+		  },
+		  {
+			"item": "98125",
+			"count": "2525"
+		  },
+		  {
+			"item": "98122",
+			"count": "2317"
+		  },
+		  {
+			"item": "98118",
+			"count": "2180"
+		  },
+		  {
+			"item": "98107",
+			"count": "2130"
+		  },
+		  {
+			"item": "98116",
+			"count": "2024"
+		  },
+		  {
+			"item": "98199",
+			"count": "1939"
+		  },
+		  {
+			"item": "98105",
+			"count": "1876"
+		  },
+		  {
+			"item": "98109",
+			"count": "1731"
+		  },
+		  {
+			"item": "98112",
+			"count": "1716"
+		  },
+		  {
+			"item": "98126",
+			"count": "1683"
+		  },
+		  {
+			"item": "98144",
+			"count": "1664"
+		  },
+		  {
+			"item": "98119",
+			"count": "1637"
+		  },
+		  {
+			"item": "98133",
+			"count": "1571"
+		  },
+		  {
+			"item": "98106",
+			"count": "1567"
+		  },
+		  {
+			"item": "98102",
+			"count": "1545"
+		  },
+		  {
+			"item": "98136",
+			"count": "1433"
+		  },
+		  {
+			"item": "98108",
+			"count": "927"
+		  }
+		],
+		"smallest": "14092",
+		"not_null": "51344",
+		"cardinality": "177"
+	  },
+	  "format": {
+		"align": "left"
+	  }
+	}
+  ],
+  "grants": [
+	{
+	  "inherited": false,
+	  "type": "viewer",
+	  "flags": [
+		"public"
+	  ]
+	}
+  ],
+  "license": {
+	"name": "Public Domain"
+  },
+  "metadata": {
+	"rdfSubject": "0",
+	"custom_fields": {
+	  "Department": {
+		"Department": "Department of Finance and Administrative Services"
+	  },
+	  "Refresh Frequency": {
+		"Frequency": "Quarterly"
+	  }
+	},
+	"rowLabel": "Pet License",
+	"availableDisplayTypes": [
+	  "table",
+	  "fatrow",
+	  "page"
+	],
+	"renderTypeConfig": {
+	  "visible": {
+		"table": true
+	  }
+	}
+  },
+  "owner": {
+	"id": "axtc-pgxr",
+	"displayName": "FAS - Seattle Animal Shelter",
+	"profileImageUrlLarge": "/api/users/axtc-pgxr/profile_images/LARGE",
+	"profileImageUrlMedium": "/api/users/axtc-pgxr/profile_images/THUMB",
+	"profileImageUrlSmall": "/api/users/axtc-pgxr/profile_images/TINY",
+	"screenName": "FAS - Seattle Animal Shelter",
+	"type": "interactive",
+	"flags": [
+	  "acceptedEula"
+	]
+  },
+  "query": {},
+  "rights": [
+	"read"
+  ],
+  "tableAuthor": {
+	"id": "axtc-pgxr",
+	"displayName": "FAS - Seattle Animal Shelter",
+	"profileImageUrlLarge": "/api/users/axtc-pgxr/profile_images/LARGE",
+	"profileImageUrlMedium": "/api/users/axtc-pgxr/profile_images/THUMB",
+	"profileImageUrlSmall": "/api/users/axtc-pgxr/profile_images/TINY",
+	"screenName": "FAS - Seattle Animal Shelter",
+	"type": "interactive",
+	"flags": [
+	  "acceptedEula"
+	]
+  },
+  "tags": [
+	"animal",
+	"shelter",
+	"pet",
+	"license",
+	"tag"
+  ],
+  "flags": [
+	"default",
+	"ownerMayBeContacted",
+	"restorable",
+	"restorePossibleForType"
+  ]
+}
